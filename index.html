@@ -4,40 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="source.js"></script>
 </head>
 <body>
     <div class="left-half">
-        <img src="assets/Pictures/mountainbike.jpg" alt="mountainbike">
         <div class="ribbon">
-            <img src="" alt="">
+            <img src="assets/Pictures/odin-lined.png" alt="odin-lined">
+            <h1>ODIN</h1>
         </div>
     </div>
     <div class="right-half">
-        <div class="form-container">
-            <form action="" method="post" id="registration">
-                <fieldset class="credentials">
-                    <label for="first-name">First Name:</label>
-                    <input type="text" id="first-name">
-                    <label for="last-name">Last Name:</label>
-                    <input type="text" id="last-name">
-                </fieldset>
-
-                <fieldset class="contacts">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email">
-                    <label for="phone-number">Phone Number:</label>
-                    <input type="tel" id="phone-number">
-                </fieldset>
-
-                <fieldset class="password">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password">
-                    <label for="confirm-password">Confirm Password:</label>
-                    <input type="password" id="confirm-password">
-                </fieldset>
-            </form>
-        </div>
-        <button type="submit" form="registration"></button>
+        <form action="" method="post" class="form">
+            <fieldset class="credentials">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name">
+            </fieldset>
+            <fieldset class="contacts">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </fieldset>
+            <fieldset class="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <label for="repeat-password">Repeat Password:</label>
+                <input type="password" id="repeat-password">
+            </fieldset>
+        </form>
     </div>
 </body>
 </html>
