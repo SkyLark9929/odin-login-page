@@ -98,7 +98,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 4%;
 
 	margin-top: 20%;
 }
@@ -108,7 +107,7 @@ body {
 }
 
 #odin-heading{
-	font-size: 800%;
+	font-size: 600%;
 	font-family: 'Norse';
 }
 
